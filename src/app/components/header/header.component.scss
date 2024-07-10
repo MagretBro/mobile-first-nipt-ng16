@@ -1,0 +1,117 @@
+.wr-header {
+    display: flex;
+    height: 300px;
+    width: 100%;
+    background-color: red;
+    border: 3px solid black;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.wr-container {
+    display: flex;
+    // height: 100%;
+    width: 100%;
+    background-color: green;
+    flex-direction: column;
+    border: 3px solid black;
+    box-sizing: border-box;
+
+}
+
+.wr-logo-menu-container {
+    display: flex;
+    height: 30%;
+    width: 100%;
+    background-color: rgb(128, 0, 68);
+    flex-direction: row;
+    border: 3px solid black;
+    box-sizing: border-box;
+    justify-content: space-between;
+    // align-items: flex-start;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    width: 40px;
+    height: 40px;
+    background-color: yellowgreen;
+}
+
+.burg-menu {
+    display: flex;
+    flex-direction: column;
+    width: 40px;
+    height: 40px;
+    background-color: yellowgreen;
+    align-items: flex-start;
+
+}
+
+
+.wr-contact-container {
+    display: flex;
+    justify-content: space-between;
+    height: 30%;
+    width: 100%;
+    background-color: rgb(25, 8, 179);
+    flex-direction: row;
+    border: 3px solid black;
+    box-sizing: border-box;
+
+}
+
+
+.social-btn {
+    width: 90px;
+    height: 20px;
+    background-color: rgb(230, 58, 27);
+}
+
+.lang-btn {
+    width: 90px;
+    height: 20px;
+    background-color: rgb(230, 58, 27);
+}
+
+
+
+
+// PPortal
+.wr-lk-btn {
+    display: flex;
+    height: 30%;
+    width: 100%;
+    background-color: rgb(124, 58, 93);
+    flex-direction: row;
+    border: 3px solid black;
+    box-sizing: border-box;
+    justify-content: center ;
+}
+
+.pp-btn {
+    display: flex;
+    flex-direction: column;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(115, 85, 215);
+    margin: 20px;
+}
+
+
+
+
+
+.nav {
+
+}
+
+.nav-list {
+
+}
+
+.nav-item {
+
+}
