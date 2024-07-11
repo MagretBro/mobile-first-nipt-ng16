@@ -29,6 +29,7 @@
     border: 3px solid black;
     box-sizing: border-box;
     justify-content: space-between;
+    padding: 20px;
     // align-items: flex-start;
 }
 
@@ -38,6 +39,8 @@
     width: 40px;
     height: 40px;
     background-color: yellowgreen;
+    border: 1px solid black;
+
 }
 
 .burg-menu {
@@ -47,33 +50,41 @@
     height: 40px;
     background-color: yellowgreen;
     align-items: flex-start;
+    border: 1px solid black;
+
 
 }
 
 
 .wr-contact-container {
     display: flex;
-    justify-content: space-between;
-    height: 30%;
+    justify-content: space-around;
+    align-items: center;
+    height: 20%;
     width: 100%;
     background-color: rgb(25, 8, 179);
     flex-direction: row;
     border: 3px solid black;
     box-sizing: border-box;
+    // padding: 0px 20px;
 
 }
 
 
 .social-btn {
-    width: 90px;
+    width: 60%;
     height: 20px;
     background-color: rgb(230, 58, 27);
+    border: 1px solid black;
+
 }
 
 .lang-btn {
-    width: 90px;
+    width: 20%;
     height: 20px;
     background-color: rgb(230, 58, 27);
+    border: 1px solid black;
+
 }
 
 
@@ -89,15 +100,18 @@
     border: 3px solid black;
     box-sizing: border-box;
     justify-content: center ;
+    // padding: 20px;
 }
 
 .pp-btn {
     display: flex;
     flex-direction: column;
-    width: 40px;
-    height: 40px;
+    width: 40%;
+    // height: 40px;
     background-color: rgb(115, 85, 215);
     margin: 20px;
+    border: 1px solid black;
+
 }
 
 
