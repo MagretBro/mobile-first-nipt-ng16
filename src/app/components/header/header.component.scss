@@ -1,6 +1,6 @@
 .wr-header {
     display: flex;
-    height: 300px;
+    // height: 300px;
     width: 100%;
     background-color: red;
     border: 3px solid black;
@@ -22,11 +22,11 @@
 
 .wr-logo-menu-container {
     display: flex;
-    height: 30%;
+    // height: 30%;
     width: 100%;
-    background-color: rgb(128, 0, 68);
+    background-color: #212224;
     flex-direction: row;
-    border: 3px solid black;
+    // border: 3px solid black;
     box-sizing: border-box;
     justify-content: space-between;
     padding: 20px;
@@ -36,10 +36,10 @@
 .logo {
     display: flex;
     flex-direction: column;
-    width: 40px;
-    height: 40px;
-    background-color: yellowgreen;
-    border: 1px solid black;
+    width: 80%;
+    // height: 40px;
+    // background-color: yellowgreen;
+    // border: 1px solid black;
 
 }
 
@@ -60,30 +60,33 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 20%;
+    // height: 20%;
     width: 100%;
-    background-color: rgb(25, 8, 179);
+    background-color: #212224;
     flex-direction: row;
-    border: 3px solid black;
-    box-sizing: border-box;
-    // padding: 0px 20px;
-
+    // border: 3px solid black;
+    // box-sizing: border-box;
 }
 
 
 .social-btn {
     width: 60%;
-    height: 20px;
-    background-color: rgb(230, 58, 27);
-    border: 1px solid black;
+    color: #fff;
+    font: bold 13px 'Open Sans', 'Arial Narrow', Arial, sans-serif;
+    // font-size: 13px;
+    // font-family: 'Open Sans', sans-serif, 'Arial Narrow', Arial;
 
 }
 
 .lang-btn {
     width: 20%;
-    height: 20px;
-    background-color: rgb(230, 58, 27);
-    border: 1px solid black;
+    color: #fff;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif, 'Arial Narrow', Arial;
+
+    // height: 20px;
+    // background-color: rgb(230, 58, 27);
+    // border: 1px solid black;
 
 }
 
@@ -93,24 +96,29 @@
 // PPortal
 .wr-lk-btn {
     display: flex;
-    height: 30%;
+    // height: 30%;
+    background-color: #212224;
     width: 100%;
-    background-color: rgb(124, 58, 93);
     flex-direction: row;
-    border: 3px solid black;
     box-sizing: border-box;
     justify-content: center ;
-    // padding: 20px;
 }
 
 .pp-btn {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center ;
+    text-align: center;
     width: 40%;
-    // height: 40px;
-    background-color: rgb(115, 85, 215);
+    background-color: #484848;
+    border: 1px solid rgb(131, 126, 126);
+    padding: 7px;
     margin: 20px;
-    border: 1px solid black;
+    color: #6bdeff;
+    word-wrap: break-word; /* Позволяет переносу слов */
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif, 'Arial Narrow', Arial;
 
 }
 
