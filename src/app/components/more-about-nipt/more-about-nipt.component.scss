@@ -1,3 +1,11 @@
+
+.img-scheme {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
 .button-container {
     display: flex;
     flex-wrap: wrap;
@@ -14,11 +22,11 @@
         border: none;
         background-color: #e5e5e5;
         border-radius: 5px;
-        font: bold 13px 'Open Sans', 'Arial Narrow', Arial, sans-serif;
+        font: bold 16px 'Open Sans', 'Arial Narrow', Arial, sans-serif;
 
 
         &.active {
-            font: bold 13px 'Open Sans', 'Arial Narrow', Arial, sans-serif;
+            font: bold 16px 'Open Sans', 'Arial Narrow', Arial, sans-serif;
             background-color: #ffffff;
             color: #000000;
         }
@@ -59,6 +67,11 @@ button.bbtn {
     font-weight: 300;
     color: #555555;
     padding: 30px;
+
+    .color-h2 {
+        color: #000000;
+        font: 30px 'Open Sans', sans-serif, 'Arial Narrow', Arial;
+    }
 
     .text {
       font-family: 'Open Sans', sans-serif, 'Arial Narrow', Arial;

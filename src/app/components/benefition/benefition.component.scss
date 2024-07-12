@@ -1,0 +1,45 @@
+
+.img-scheme {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.text-container {
+    
+    font-family: 'Open Sans', sans-serif, 'Arial Narrow', Arial;
+    font-weight: 300;
+    color: #555555;
+    padding: 30px;
+
+    .color-h2 {
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        justify-content: center;
+        color: #000000;
+        font: 30px 'Open Sans', sans-serif, 'Arial Narrow', Arial;
+    }
+
+    .h {
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        justify-content: center;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif, 'Arial Narrow', Arial;
+        margin-bottom: 20px;
+    }
+    
+    p {
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        justify-content: center;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif, 'Arial Narrow', Arial;
+        margin-bottom: 20px;
+    }
+
+}

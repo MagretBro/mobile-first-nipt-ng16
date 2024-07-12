@@ -1,19 +1,25 @@
 
+<div class="img-scheme">
+    <img src="assets/ico.png" alt="icon" class="ico-img">
+</div>
+
+<div class="text-container">
+    <h2 class="color-h2"><strong>Find out more about the NIPT</strong></h2>
+</div>
+
 <div class="button-container">
     <button (click)="setActiveBtn('WHAT is NIPT')" [class.active]="isActive('WHAT is NIPT')">WHAT is NIPT</button>
     <button (click)="setActiveBtn('NIPT PLUS')" [class.active]="isActive('NIPT PLUS')">NIPT PLUS</button>
     <button (click)="setActiveBtn('NIPT')" [class.active]="isActive('NIPT')">NIPT</button>
 </div>
 
-<div class="img-scheme">
-    <!-- <img src="assets/Test_prenatal_no_invasivo-1920x1281.jpg" alt="till pregnansy" class="responsive-img"> -->
-</div>
+
 
 <!-- 1 btn: WHAT is NIPT -->
 
 <div class="text-container">
     <div *ngIf="isActive('WHAT is NIPT')">
-        <h2><strong>Find out more about the NIPT</strong></h2>
+        <!-- <h2><strong>Find out more about the NIPT</strong></h2> -->
         <div class="text">
             <p>The <strong>Non-invasive Prenatal Test</strong> consists of an analysis of the mother's blood to detect abnormalities of the fetus, avoiding performing an amniocentesis and the possible risks that this test entails.</p>
 
