@@ -1,1 +1,157 @@
-<p>more-about-nipt works!</p>
+
+<div class="button-container">
+    <button (click)="setActiveBtn('WHAT is NIPT')" [class.active]="isActive('WHAT is NIPT')">WHAT is NIPT</button>
+    <button (click)="setActiveBtn('NIPT PLUS')" [class.active]="isActive('NIPT PLUS')">NIPT PLUS</button>
+    <button (click)="setActiveBtn('NIPT')" [class.active]="isActive('NIPT')">NIPT</button>
+</div>
+
+<div class="img-scheme">
+    <!-- <img src="assets/Test_prenatal_no_invasivo-1920x1281.jpg" alt="till pregnansy" class="responsive-img"> -->
+</div>
+
+<!-- 1 btn: WHAT is NIPT -->
+
+<div class="text-container">
+    <div *ngIf="isActive('WHAT is NIPT')">
+        <h2><strong>Find out more about the NIPT</strong></h2>
+        <div class="text">
+            <p>The <strong>Non-invasive Prenatal Test</strong> consists of an analysis of the mother's blood to detect abnormalities of the fetus, avoiding performing an amniocentesis and the possible risks that this test entails.</p>
+
+
+            <h3>1. Who can take the Non-Invasive Prenatal Test?</h3>
+            <p>    This test is indicated for pregnant women of any age from week 9 of pregnancy.
+            </p>
+            <p>In the following situations:</p>
+            <ul> 
+                <li>Single or twin pregnancy</li>
+                <li>In Vitro Fertilization Pregnancies</li>
+                <li>Pregnancy by egg donation</li>
+                <li>Vanishing Twin (Missing Twin)</li>
+            </ul>
+            <h3>2. What does it detect?</h3>
+            <ul> 
+                <li>Down Syndrome (Trisomy 21)</li>
+                <li>Edwards' syndrome (Trisomy 18)</li>
+                <li>Patau Syndrome (Trisomy 13)</li>
+                <li>Turner syndrome (X0)</li>
+                <li>Sex chromosomal trisomies:
+                    <ul>
+                        <li>Klinefelter syndrome (XXY)</li>
+                        <li>Jacobs Syndrome (XYY)</li>
+                        <li>Triple X syndrome (XXX)</li>
+                    </ul>
+                </li>
+                <li>Triploidy (69 chromosomes)</li>
+                <li>Fetal sex</li>
+            </ul>
+        </div>
+        <div class="text">
+            <h3>3. Delivery and interpretation of results</h3>
+
+            <p>Delivery time 8 working days. * Sometimes the delivery time may be extended due to technical needs.</p>
+            <p>Interpretation:</p>
+
+            <div class="pred">LOW PROBABILITY:</div> <p>It confirms by 99% the probability that the fetus does not present the syndromes analyzed. However, it does not rule out the possibility of fetal chromosomal involvement,
+            </p>
+            <div class="pgreen">HIGH PROBABILITY:</div> <p>To confirm a HIGH RISK result, a definitive diagnostic test is required on the amniotic fluid. It is important that you consult the results with your gynecologist.
+            </p>
+
+
+            <div class="wr-btn"> 
+                <!-- style="width: 100%; display: flex;flex-direction: column; align-items: center; justify-content: center;"> -->
+                <button class="bbtn"> Information Brochure</button>
+            </div>
+
+
+        </div>
+    </div>
+
+        <!-- 2 btn:  NIPT PLUS -->
+
+    <div *ngIf="isActive('NIPT PLUS')">
+        <div class="text">
+            <p>In the following table you will find a brief summary to know the type of Non-Invasive Prenatal Test.</p>
+            <p>Laboratorio Echevarne always recommend consulting it in advance with your gynecologist.</p>
+            <!-- Embed video code here -->
+             <div class="wr-video">
+                <iframe width="1217" height="685" src="https://www.youtube.com/embed/NBCrLmnlJBQ" title="Panorama NIPT Overview" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+             </div>
+        </div>
+            <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/NBCrLmnlJBQ" title="Panorama NIPT Overview" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
+    </div>    
+
+        <!-- 3 btn: NIPT -->
+
+    <div *ngIf="isActive('NIPT')">
+
+        <p><strong>Non-invasive Prenatal Test</strong></p>
+        <div class="text">
+
+            <h2>1.What does it detect?</h2>
+
+            <ul> 
+                <li>Trisomy 21. S. Down</li>
+                <li>Trisomy 18. S. Edwards</li>
+                <li>Trisomy 13. S. Patau</li>
+                <li>Triploidy</li>
+                <li>Fetal sex</li>
+            </ul>
+
+            <p><strong>2. Type of pregnancy</strong></p>
+
+            <p>This test is indicated for pregnant women of any age from week 9 of pregnancy.
+            </p>
+
+            <p>In the following situations:</p>
+
+            <ul> 
+                <li>Single pregnancy</li>
+                <li>Single pregnancy due to egg donation: * Triploidy is NOT reported.
+                </li>
+                <li>Twin pregnancy: The sex of each fetus, zygosity and fetal fraction are reported.
+                    <ul>
+                        <li>Dizygotic twin pregnancy: * Triploidy is NOT reported.
+                        </li>
+                        <li>Monozygotic twin pregnancy: * Triploidy is NOT reported.
+                        </li>
+                    </ul>
+                </li>
+
+            </ul>
+
+
+            <h3>3. Interpretation of the results:</h3>
+            <p>Interpretation:</p>
+            <div class="pred">LOW PROBABILITY:</div> <p>It confirms by 99% the probability that the fetus does not present the syndromes analyzed. However, it does not rule out the possibility of fetal chromosomal involvement,
+            </p>
+
+            <div class="pgreen">HIGH PROBABILITY:</div> <p>To confirm a HIGH RISK result, a definitive diagnostic test is required on the amniotic fluid. It is important that you consult the results with your gynecologist.
+            </p>
+
+
+            <h3>4. Indications.</h3>
+
+            <p>It is not necessary to come on an empty stomach. It is recommended to eat food 30 minutes before the analysis.
+            </p>
+            <p>Extractions from Monday to Thursday (The analysis will not be carried out on the eve of Fridays)
+            </p>
+                <ul>
+                    <li class="price">
+                        <strong>Price 390$</strong>
+                    </li>
+                </ul>
+
+            <div class="wr-btn"> 
+                    <!-- <div style="width: 100%; display: flex;flex-direction: column; align-items: center; justify-content: center;"> -->
+                <button class="gbtn"> Results Report Sample</button>
+                <button class="bbtn"> Information Brochure</button>
+            </div>
+             
+
+        </div>
+
+    </div>
+
+
+
+</div>
