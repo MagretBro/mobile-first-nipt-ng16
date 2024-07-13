@@ -58,6 +58,9 @@ li.h6 {
     padding-bottom: 10px;
 }
 
+.f-rside .h6 a:hover {
+    color: #afafaf; /* Цвет при наведении */
+}
 
 a {
     color: #c8c8c8;
@@ -91,7 +94,6 @@ a {
 .nav-item a:hover {
     text-decoration: underline; /* Подчеркивание */
 }
-
 
 .logo {
     display: flex;
