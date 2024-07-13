@@ -15,37 +15,86 @@
     box-sizing: border-box;
 }
 
+
 .wr-f-menu {
     display: flex;
-    flex-direction: row;
+    // height: 30%;
+    background-color: #212224;
     width: 100%;
+    flex-direction: row;
+    box-sizing: border-box;
+    justify-content: center ;
+}
+
+.f-lside, .f-rside {
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-items: center;
-    justify-content: space-between;
+    justify-content: space-between ;
+    text-align: left;
+    width: 40%;
+    padding: 7px;
+    margin: 20px;
+    color: #c8c8c8;
+    word-wrap: break-word; /* Позволяет переносу слов */
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif, 'Arial Narrow', Arial;
+
+}
+
+.nav-list {
+    width: 100%; /* Делаем список на всю ширину блока */
+    padding: 0; /* Убираем отступы у списка */
+    margin: 0; /* Убираем отступы у списка */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Распределяет элементы равномерно */
+    height: 100%; /* Делаем список на всю высоту родительского блока */
+}
+
+li.h6 {
+    list-style-type: none; // Убираем точки
+    text-decoration: underline; /* Подчеркивание */
+    padding-bottom: 10px;
+}
+
+
+a {
     color: #c8c8c8;
 }
 
-.f-lside {
-    
+.nav-item a {
+    color: #c8c8c8;
+    text-decoration: none; /* Убираем подчеркивание */
+    position: relative;
+    display: inline-block;
 }
 
+.nav-item {
+    list-style-type: none;
+    // margin: 10px 0;
+    padding-left: 20px; /* Отступ для линии слева */
 
+}
+
+.nav-item a::before {
+    content: '';
+    position: absolute;
+    left: -10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 5px; /* Длина черты */
+    height: 1px; /* Толщина черты */
+    background-color: #c8c8c8; /* Цвет черты */
+}
+
+.nav-item a:hover {
+    text-decoration: underline; /* Подчеркивание */
+}
 
 
 .logo {
     display: flex;
     flex-direction: column;
     width: 80%;
-}
-
-.burg-menu {
-    display: flex;
-    flex-direction: column;
-    width: 40px;
-    height: 40px;
-    background-color: yellowgreen;
-    align-items: flex-start;
-    border: 1px solid black;
-
-
 }
